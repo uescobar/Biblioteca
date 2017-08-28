@@ -1,0 +1,234 @@
+﻿@charset "utf-8"; 
+*{padding:0; margin:0; color:#676767}
+*, *:before, *:after{box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box}
+.ms-hidden{display:none}
+a, a:active, a:link, a:visited, a:hover{text-decoration:none!important}
+html, body, div, span, applet, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
+a, abbr, acronym, address, big, cite, code, 
+del, dfn, em, img, ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var, 
+b, u, i, center, 
+dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td, 
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary, 
+time, mark, audio, video{margin:0; padding:0; border:0; font-size:100%; font:inherit}
+body{font-family:Helvetica; font-size:14px; background:#FFF; line-height:1; min-width:240px; overflow-x:hidden; background:#f2f0f0}
+body #s4-bodyContainer{overflow:hidden}
+body #s4-leftpanel{display:block}
+
+body #s4-workspace{overflow:auto!important; background:#A7A7A9}
+.ms-hidden{display:none!important}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display:block}
+ol, ul{list-style:none}
+blockquote, q{quotes:none}
+blockquote:before, blockquote:after, 
+q:before, q:after{content:''; content:none}
+table{border-collapse:collapse; border-spacing:0}
+#Contenedor h2, #Contenedor h3{font-family:Calibri,Sans-serif; font-weight:bold}
+#Contenedor h2{font-size:19px; color:#bc671b}
+#Contenedor h3{font-size:17px; color:#363554}
+#Contenedor p{line-height:15px; font-family:"Arial"; font-size:12px; color:#676767}
+.Buscador{position:fixed; background:url("../images/assets/Icons.png")#f2f0f0 no-repeat -96px -137px; width:50px; height:52px; top:180px; z-index:20; border:1px solid #ddd; -moz-border-radius:0px 30px 30px 0px; -webkit-border-radius:0px 30px 30px 0px; border-radius:0px 30px 30px 0px; -moz-box-shadow:1px 1px 5px #555; -webkit-box-shadow:1px 1px 3px #555; box-shadow:1px 1px 3px #555; overflow:hidden; -moz-transition:all 1s ease-in-out 0s; transition:all 1s ease-in-out 1s; -webkit-transition:all 1s ease-in-out 0s; -o-transition:all 1s ease-in-out 0s; -ms-transition:all 1s ease-in-out 0s; opacity:0.7}
+.Buscador div{position:absolute; width:290px; height:100%; padding-left:55px}
+.Buscador div #txt_query{width:77%; display:block; margin:5px 0}
+.Buscador div #button_1{margin-top:-20px; width:48px; height:25px; display:block; float:right}
+.Buscador div a{margin:auto; text-align:center}
+.Buscador:hover{left:0px; opacity:1; width:300px; display:block; -moz-box-shadow:3px 3px 8px rgba(0,0,0,0.9); box-shadow:0px 2px 8px rgba(0,0,0,0.9)}
+#Header{width:100%}
+#Header .menusup{width:100%; background:#DDDDE2}
+#Header .banner{width:100%; background:#6D1A42}
+.menusup ul, .banner .contbanner{width:100%; max-width:970px; min-width:240px; margin:auto; position:relative; overflow:hidden}
+.menusup ul{height:30px; font-size:11px}
+.menusup ul li{float:right; height:100%; padding:8px 0; box-sizing:border-box; border-top:2px solid transparent; -moz-transition:all 0.2s ease-in-out 0s; transition:all 0.2s ease-in-out 0s; -webkit-transition:all 0.2s ease-in-out 0s; -o-transition:all 0.2s ease-in-out 0s}
+.menusup ul li:hover{border-top:2px solid #f93}
+.menusup ul li a{width:100%; height:100%; color:#363654; padding:8px; border-right:1px solid #C9C9C9}
+.banner .contbanner{height:100px}
+.logosep, .escudoipn, .gplus, .rss, .yutu, .face, .twt, .blog{background:url("../images/assets/Icons.png"); float:right}
+.logosep{width:218px; height:64px; background-position:0px -70px; float:left; margin-top:15px}
+.escudoipn{width:43px; height:62px; background-position:-47px -138px; margin-top:16px}
+.banner .contbanner .logoipn{height:100%; position:relative}
+.banner .contbanner .logoipn img{position:absolute; right:0px; top:20px}
+.banner .contbanner .logoipn >span{position:absolute; right:60px; text-align:right; top:30px; width:310px}
+.banner .contbanner .logoipn span span{clear:both; display:block; color:white; font-size:14px}
+.banner .contbanner .logoipn span a{color:white; display:block; font-size:15px}
+zz15_TopNavigationMenuV4{background:#D3D3D3}
+.menu-horizontal{display:table; width:100%; max-width:970px; margin:auto; position:relative}
+.menu-horizontal ul.static{width:auto; margin:auto; display:table}
+.menu-horizontal ul li{float:left; position:relative; margin:0 1px; border-bottom:2px solid transparent; -moz-transition:all 0.2s ease-in-out 0s; transition:all 0.2s ease-in-out 0s; -webkit-transition:all 0.2s ease-in-out 0s; -o-transition:all 0.2s ease-in-out 0s}
+.menu-horizontal ul li:hover, .menu-horizontal ul li.selected{border-bottom:2px solid #f93}
+.menu-horizontal ul li >a.menu-item{text-align:center; display:block; padding:8px!important; height:auto!important; color:white}
+.menu-horizontal ul li >a.menu-item .menu-item-text{color:white; font-size:12px; font-weight:bold}
+.menu-horizontal ul li ul{display:none}
+.RastroNavegacion{width:100%; position:relative}
+.RastroNavegacion .MenuRastroNavegacion{width:100%; max-width:970px; margin:auto; padding:10px; position:relative; background:white}
+.RastroNavegacion .TituloPagina{width:100%; max-width:970px; margin:auto; position:absolute; bottom:8px; left:0; right:0; display:block}
+.RastroNavegacion .MenuRastroNavegacion >span{padding:3px 0px; font-size:11px; text-align:right; display:block}
+.RastroNavegacion .MenuRastroNavegacion span a{color:#6d1a42}
+.RastroNavegacion .MenuRastroNavegacion span span{padding:3px; color:#454444}
+.RastroNavegacion .TituloPagina h1{display:none; font-size:20px; color:#363554; font-weight:bold; position:absolute; bottom:0; left:5px}
+body #s4-leftpanel{width:180px; float:left; position:absolute; min-height:100%; z-index:1}
+#Contenedor{width:100%; max-width:970px; min-width:240px; margin:0 auto; position:relative}
+#Contenedor .menu-vertical{float:left; width:180px; background:none}
+#Contenedor .menu-vertical ul li{border-top:solid 1px #FFF; border-bottom:solid 1px #Ccc; position:relative; word-wrap:break-word; font-weight:bold}
+#Contenedor .menu-vertical ul li.selected{background:#fff}
+#Contenedor .menu-vertical ul li.selected .menu-item-text{color:#6D1A42}
+#Contenedor .menu-vertical ul >li a.menu-item:before{content:">"; display:block; top:8px; left:10px; position:absolute; font-size:9px; font-weight:bold; font-family:"arial"}
+#Contenedor .menu-vertical ul >li span.menu-item-text:before{display:none}
+#Contenedor .menu-vertical ul >li a.menu-item{margin-left:3px}
+#Contenedor .menu-vertical ul >li span.menu-item{color:gray; text-shadow:none; font-weight:bold; display:block; list-style:none; padding:5px 12px 5px 10px; cursor:pointer}
+#Contenedor .menu-vertical ul >li span.menu-item:after{content:url("../Images/assets/menu.png"); position:absolute; right:5px; top:3px; -moz-transition:0.5s all; -webkit-transition:0.5s all; -o-transition:0.5s all; transition:0.5s all}
+#Contenedor .menu-vertical ul >li span.menu-item.on:after{-webkit-transform:rotate(180deg); -ms-transform:rotate(180deg); -moz-transform:rotate(180deg); transform:rotate(180deg); -webkit-transform-origin:5px 8px; transform-origin:5px 8px; -moz-transform-origin:5px 8px; -o-transform-origin:5px 8px}
+#Contenedor .menu-vertical ul li a{display:block; background:none; padding:5px 4px 5px 15px; font-size:13px; border:none}
+#Contenedor .menu-vertical ul li span:hover{color:#6d1a42}
+#Contenedor .menu-vertical ul li ul{display:none; background:#C5C5C5; padding-left:3px}
+#Contenedor .menu-vertical ul li ul li{padding:0px}
+#Contenedor .menu-vertical ul li ul li.selected{background:#fff; position:relative}
+#ContPrincipal{width:100%; display:table; min-height:350px; height:300px; position:relative; background:#F2F0F1; border-top:1px solid #DDD}
+#Contenedor .PiePagina{display:table; width:100%; background:white}
+#Contenedor .PiePagina .menupie{width:auto; float:right; height:100%}
+#Contenedor .PiePagina .menupie ul{float:right; display:block}
+#Contenedor .PiePagina .menupie ul li{padding:8px}
+#Contenedor .PiePagina .menupie ul li a{color:#807F7F; -webkit-transition:all 0.3s ease-in-out; -moz-transition:all 0.3s ease-in-out; -o-transition:all 0.3s ease-in-out; -ms-transition:all 0.3s ease-in-out; transition:all 0.3s ease-in-out}
+#Contenedor .PiePagina .menupie ul li a:hover{color:#6d1a42}
+.interespie{width:auto; float:left; height:100%}
+.interespie ul{width:100%; padding:5px; display:table}
+.interespie ul li{float:left; padding:0px}
+.redes{width:auto; *width:34%; *float:right; float:right; height:100%; text-align:right}
+.redes ul{height:100%; float:right; *padding:0 5px 5px 5px}
+.redes ul li, #Contenedor .PiePagina .menupie ul li{float:left; margin:5px 5px 5px 0px}
+.gplus, .rss, .yutu, .face, .twt, .blog{width:32px; height:32px; -moz-transition:all 0.2s ease-in-out 0s; transition:all 0.2s ease-in-out 0s; -webkit-transition:all 0.2s ease-in-out 0s; -o-transition:all 0.2s ease-in-out 0s}
+.face:hover{background-position:0 -32px}
+.twt{background-position:-37px 0}
+.twt:hover{background-position:-37px -32px}
+.yutu{background-position:-73px 0}
+.yutu:hover{background-position:-73px -32px}
+.gplus{background-position:-147px 0}
+.gplus:hover{background-position:-147px -32px}
+.blog{background-position:-183px 0}
+.blog:hover{background-position:-183px -32px}
+.rss{background-position:-110px 0}
+.rss:hover{background-position:-110px -32px}
+.redes li a{position:relative; display:block; width:32px; height:100%}
+.redes li a span{display:none\0/; /*ie8*/*display:none; /*ie7*/width:80px; height:auto; padding:5px; left:50%; margin-left:-38px; font-style:italic; font-size:11px; color:#fff; text-shadow:1px 1px 1px rgba(0,0,0,0.1); text-align:center; border:2px solid #fff; background:rgba(114,113,113,0.5); text-indent:0px; border-radius:2px; position:absolute; pointer-events:none; bottom:60px; opacity:0; box-shadow:1px 1px 2px rgba(0,0,0,0.1); -webkit-transition:all 0.3s ease-in-out; -moz-transition:all 0.3s ease-in-out; -o-transition:all 0.3s ease-in-out; -ms-transition:all 0.3s ease-in-out; transition:all 0.3s ease-in-out}
+.redes li a span:before, 
+.redes li a span:after{display:block; content:''; position:absolute; bottom:-11px; left:50%; margin-left:-9px; width:0; height:0; border-left:10px solid transparent; border-right:10px solid transparent; border-top:10px solid rgba(0,0,0,0.1)}
+.redes li a span:after{bottom:-10px; margin-left:-10px; border-top:10px solid #fff}
+.redes li a:hover span{opacity:0.9; bottom:50px}
+.redes ul li a{display:block; width:32px; height:32px}
+#Footer{width:100%; height:auto; background:#DDDDE2; display:table; padding-bottom:10px; box-shadow:0px 2px 3px rgba(0,0,0,0.5) inset}
+#Footer .contFooter{max-width:970px; margin:auto}
+#Footer .contFooter .direccion{width:85%; text-align:center; margin:auto}
+#Footer .contFooter .direccion .derechos{padding:0}
+#Footer .contFooter p{padding-top:10px; line-height:15px; font-size:11px; color:#666; clear:both}
+#Footer .contFooter p a{font-size:12px; color:#666; text-transform:uppercase; margin-bottom:8px; display:block; font-weight:bold; -webkit-transition:all 0.3s ease-in-out; -moz-transition:all 0.3s ease-in-out; -o-transition:all 0.3s ease-in-out; -ms-transition:all 0.3s ease-in-out; transition:all 0.3s ease-in-out}
+#Footer .contFooter p a:hover{color:#6d1a42}
+.triggerh, .triggerv{display:none}
+
+@media screen and (max-width:970px){
+.completa790{max-width:100%}
+body #s4-leftpanel{display:none; background:rgb(233,233,233) }
+.triggerv{display:block; position:absolute; width:30px; height:30px; padding:8px; z-index:2; background:url("../Images/assets/MenuResponsive.png") no-repeat 5px}
+#Contenedor .menu-vertical{margin-top:30px}
+}
+@media screen and (max-width:533px){
+.menu-horizontal ul li{width:98%}
+.logosep, .derechos{display:none}
+.escudoipn{margin-right:10px}
+.menu-horizontal{position:relative; margin:auto; display:none}
+.menu-horizontal ul li{margin:auto}
+.menu-horizontal ul li.selected{display:block}
+.menu-horizontal ul.on{height:auto; -moz-transition:all 0.2s ease-in-out 0s; transition:all 0.2s ease-in-out 0s; -webkit-transition:all 0.2s ease-in-out 0s; -o-transition:all 0.2s ease-in-out 0s}
+.menu-horizontal ul.on li{display:block; -moz-transition:all 0.2s ease-in-out 0s; transition:all 0.2s ease-in-out 0s; -webkit-transition:all 0.2s ease-in-out 0s; -o-transition:all 0.2s ease-in-out 0s}
+.triggerh{display:block; position:relative; width:100%; height:30px; padding:8px; text-align:center; margin:auto; margin-left:-5px; color:black; background:url("../Images/assets/MenuResponsive.png") no-repeat 5px}
+}
+@media screen and (max-width:320px){.banner .contbanner .logoipn >span{right:0; left:0; top:70px; margin:auto; text-align:center}
+.banner .contbanner .logoipn h1{text-align:center; width:100%; right:auto; top:auto; bottom:5px}
+.escudoipn{float:none; margin:2px auto}
+}
+@media print{
+*{ background:none !important;  color:black !important;  box-shadow:none !important;  text-shadow:none !important;    filter:Gray();   filter:url('desaturate.html#grayscale');  -webkit-filter:grayscale(100%);   -moz-filter:grayscale(100%);   -ms-filter:grayscale(100%);   -o-filter:grayscale(100%);   filter:grayscale(100%)}
+.banner .contbanner{background:transparent}
+ a{ text-decoration:underline}
+ a[href]:after{ content:"("attr(href) ")"}
+
+ a[href="#"], 
+ a[href="javascript:"]{ content:""}
+}
+
+.elemen{width:100%; height:50px; background:red}
+
+.MenuServicios{width:100%; margin:auto; margin-bottom:15px; display:table; background:#f9f8f8}
+.MenuServicios .MenuServiciosSection{float:left; width:20%; position:relative}
+.MenuServicios .MenuServiciosSection span{display:block; border-left:10px solid #f93; background:#6d1a42; box-shadow:0px 2px 2px rgba(0,0,0,0.5)}
+.MenuServicios .MenuServiciosSection span a{color:white; line-height:16px; padding:10px 0px 10px 6px; display:block; font-size:13px}
+.MenuServicios .MenuServiciosSection ul{padding:5px 0px 25px 0px}
+.MenuServicios .MenuServiciosSection ul li{display:block; border-bottom:1px dotted #CCC; list-style:none; margin:0px 8px; padding:0px}
+.MenuServicios .MenuServiciosSection ul li a{font-size:12px; color:#363554; display:block; padding-top:7px; padding-bottom:7px; text-decoration:none}
+.MenuServicios .MenuServiciosSection .LeerMas{font-size:11px; display:block; bottom:6px; right:10px; height:auto; position:absolute}
+.MenuServicios .MenuServiciosSection .LeerMas a{color:#6d1a42}
+
+.HomeZonaSecundaria{display:block; clear:both; width:100%}
+.HomeNotas{display:table}
+.HomeNotas .HomeNota{background:#fff; display:block; float:left; width:33%; padding:8px; text-align:justify; height:310px; position:relative}
+.HomeNotas .HomeNota:nth-child(2){ margin:0 0.5%}
+.HomeNotas .HomeNota img{ width:100%}
+.HomeNotas .HomeNota h2 a{font-size:12px; line-height:normal; color:#363554; display:block; margin:5px 0; font-weight:bold}
+.HomeNotas .HomeNota p{line-height:14px; font-size:11px; display:table}
+.HomeNotas .HomeNota .LeerMas a{display:block; position:absolute; bottom:10px; right:10px; color:#6d1a42}
+
+.HomeagendaPolitecnica{    background:none repeat scroll 0 0 #F9F8F8;     display:block;     float:left;     height:310px;     position:relative;     width:100%}
+
+.HomeagendaPolitecnica h2 a{    background:#6D1A42;     border-left:10px solid #F93;     color:#FFF;     display:block;     padding:10px;     width:100%;     box-shadow:0px 1px 3px rgba(0,0,0,0.5)}
+.HomeagendaPolitecnica ul{margin-top:10px}
+.HomeagendaPolitecnica ul li{    border-bottom:1px dotted #CCC;     display:table;     margin:0 auto 3px;     width:95%}
+.HomeagendaPolitecnica li .Tipo{    display:block;     font-size:11px;     text-align:right}
+.HomeagendaPolitecnica ul li .Fecha{    color:#F93;     display:block;     float:left;     font-size:17px;     text-align:right;     width:30%;     margin-bottom:5px}
+.HomeagendaPolitecnica ul li .Fecha span{    display:block;     font-size:12px;     color:#F93}
+.HomeagendaPolitecnica ul li .Actividad{width:65%; display:table; float:right}
+.HomeagendaPolitecnica ul li .Actividad a{    clear:right;     color:#363554;     display:block;     float:left;     padding:2px 5px;     font-weight:bold}
+.HomeagendaPolitecnica .ConsultaMas{    background:url("../images/Modulos/AgendaVerMas.html") no-repeat scroll left top #DDDDE2;  bottom:0;  height:55px;  position:absolute;  width:100%}
+.HomeagendaPolitecnica .ConsultaMas a{ color:#363554;  display:block;  font-size:0.96em;  padding-left:40px;  padding-top:12px;  text-shadow:0 1px 1px #FFF}
+.HomeagendaPolitecnica .ConsultaMas a span{ font-weight:bold}
+
+.HomeNotaPrincipal{display:table; height:380px; width:100%; position:relative}
+#slides{position:absolute; z-index:1; width:100%}
+.slides_container{width:630px; height:360px; overflow:hidden}
+.slides_container div.slide{width:630px; height:360px}
+.slides_container .slide >img{width:100%}
+
+.pagination{margin:10px auto 5px; width:auto; display:table}
+.pagination li{float:left}
+.pagination li a{display:block; width:12px; height:0; padding-top:12px; background-image:url(../images/home/pagination.html); background-position:0 0; float:left; overflow:hidden}
+.pagination li.current a{background-position:0 -12px}
+
+.caption{z-index:1; position:absolute; bottom:0!important; left:0; height:85px; width:630px; padding:10px; background:rgba(0,0,0,.8)}
+.caption h2{color:#f93; font-size:18px; font-weight:bold}
+.slide .caption p{display:block; line-height:normal; float:left; width:85%; color:white; padding:5px 0}
+.slide .caption p.LeerMas a{ clear:inherit; position:absolute; right:0px; bottom:0px;  color:#dddde2; background:#6d1a42; padding:8px 15px; border-left:10px solid #F93; display:block}
+
+.Ofertahalf{width:100%; float:left; background-color:#DDDDE2; clear:both; font-size:12px; height:180px}
+.Ofertahalf .Imagen, .Ofertahalf .Imagen img{float:left; width:100%; height:90px}
+.Ofertahalf .Contenido{height:90px; width:100%; padding:5px; float:left}
+.Ofertahalf .Contenido span{font-weight:bold; margin-top:5px; display:block}
+.Ofertahalf .Contenido p{text-align:justify; border-bottom:1px dashed #ccc; display:block; line-height:18px}
+
+.Ofertahalf .Contenido p a{font-size:12px; float:right; color:#6d1a42}
+
+.es-carousel-wrapper{-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; position:relative; width:970px; display:table; background:black}
+.es-carousel{overflow:hidden; height:100%; margin:auto; width:930px}
+.es-carousel ul{display:block; margin:auto}
+.es-carousel ul li{height:100%; float:left; display:block; padding-right:2px}
+.es-carousel ul li a{display:block; border-style:solid; border-width:0px}
+.es-carousel ul li a img{display:block; border:none; max-height:100%; max-width:100%; opacity:0.8}
+.es-carousel ul li a img:hover{opacity:1.0}
+.es-nav span{position:absolute; top:50%; left:2px; background:transparent url(../images/nav.png) no-repeat top left; width:14px; height:26px; margin-top:-13px; text-indent:-9000px; cursor:pointer; opacity:0.5}
+.es-nav span.es-nav-next{right:2px; left:auto; background-position:top right}
+.es-nav span:hover{opacity:1.0}
+
+
+

@@ -1,0 +1,41 @@
+﻿.subtitle-bibli{border-bottom: 1px dashed #c7c6c4;}
+.subtitle-bibli h3{color: #307395;}
+@media only screen and (max-width: 480px){
+.main label{
+	font-size: 12px!important;
+}
+.catalog-title {
+	font-size: 14px!important;
+}
+
+}
+.imaRECO  {
+width:127px; height:144px;  float:"left"; 
+
+}
+@media only screen and (max-width: 320px){
+
+.catalog-title {
+	font-size: 14px!important;
+}
+	
+	
+	
+	.ContenedorImgen {width: 35%;float: left;padding-right: 5px;}
+
+}
+
+
+.listafooter2 li {
+    width: 100%;
+    margin: 3px 0 3px 7px;
+    float: left;
+	
+	}
+
+	.footer img {
+    width: 65% !important;
+	}	
+		.listafooter1 li {
+    width: 16% !important;
+}
